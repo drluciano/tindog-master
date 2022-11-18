@@ -1,36 +1,81 @@
 /* Default Styling */
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
 h1 {
-  font-family: "Montserrat, sans-serif";
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+button {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Nav Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: light;
+}
+.container-fluid {
+  padding: 3% 15%;
 }
 
 /* Title */
 
-#title{
-    background-color: #ff4c68;
+#title {
+  color: white;
+  background-color: #ff4c68;
+  overflow: hidden;
+}
+.iphone {
+  width: 60%;
+  transform: rotate(25deg);
+}
+.dl-btn {
+  margin: 5% 3% 5% 0;
 }
 
 /* Features */
-
-
+#features {
+  text-align: center;
+  line-height: 1.5;
+  margin: 10% 10%;
+}
+.ft-ico {
+  color: #ef8172;
+  margin: 10%;
+  margin-bottom: 5%;
+}
+.ft-ico:hover {
+  color: #ff4c68;
+}
+.ft-desc {
+  color: #8f8f8f;
+}
 
 /* Testimonials */
 
-
-
 /* Press */
-
-
 
 /* Pricing */
 
-
-
 /* CTA */
-
-
 
 /* Footer */
