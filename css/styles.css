@@ -42,28 +42,42 @@ button {
   font-weight: light;
 }
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Title */
 
 #title {
-  color: white;
+  color: #fff;
   background-color: #ff4c68;
-  overflow: hidden;
 }
 .iphone {
-  width: 60%;
+  width: 300px;
   transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
 }
+
+@media (max-width: 995px) {
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
 .dl-btn {
   margin: 5% 3% 5% 0;
 }
 
 /* Features */
 #features {
+  background-color: #fff;
   line-height: 1.5;
   padding: 7% 15%;
+  position: relative;
 }
 .feature-box {
   text-align: center;
@@ -109,13 +123,43 @@ button {
 
 /* Pricing */
 
-#pricing{
+#pricing {
   padding: 7% 15%;
 }
-.price-col{
+.price-col {
   padding: 3% 2%;
+}
+.price-text{
+  color: #ff4c68;
+}
+.mastiff-header{
+  background-color: #ff4c68;
+  color: #ff4c68;
 }
 
 /* CTA */
 
+#cta{
+  background-color: #ff4c68;
+  padding: 3% 25%;
+  text-align: center;
+}
+.cta-title{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 2%;
+}
+
 /* Footer */
+
+#footer{
+  padding: 2%;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 10px;
+  margin-bottom: 15px;
+  color: #ef8172;
+}
