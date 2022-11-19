@@ -8,9 +8,17 @@ h1 {
   line-height: 1.5;
   font-weight: 900;
 }
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
 h3 {
   font-size: 1.5rem;
   font-weight: bold;
+}
+p {
+  color: #8f8f8f;
 }
 button {
   font-family: "Ubuntu", sans-serif;
@@ -54,27 +62,59 @@ button {
 
 /* Features */
 #features {
-  text-align: center;
   line-height: 1.5;
-  margin: 10% 10%;
+  padding: 7% 15%;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
 }
 .ft-ico {
   color: #ef8172;
-  margin: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 1rem;
 }
 .ft-ico:hover {
   color: #ff4c68;
 }
-.ft-desc {
-  color: #8f8f8f;
-}
 
 /* Testimonials */
 
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
 /* Press */
 
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
 /* Pricing */
+
+#pricing{
+  padding: 7% 15%;
+}
+.price-col{
+  padding: 3% 2%;
+}
 
 /* CTA */
 
